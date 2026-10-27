@@ -1,8 +1,9 @@
 # The Report — 2026-10-26
 
-**Platform:** [BTLO](https://blueteamlabs.online/home/challenge/the-report-a6dd340dba) · **Difficulty:** Easy · **Category:** Security Operations
-**Type:** Research
-**Score / mistakes:** 10/10
+- **Platform:** [BTLO](https://blueteamlabs.online/home/challenge/the-report-a6dd340dba) · **Difficulty:** Easy · **Category:** Security Operations
+- **Type:** Research
+- **Score:** 10/10
+
 ## Task
 The task for this challenge was to answer some questions related to threat report released in 2022 by Red Canary. The questions focus on cybersecurity threat intelligence, including supply chain attacks, MITRE ATT&CK techniques, Exchange Server vulnerabilities, initial access methods, ransomware, and security measures.
 
@@ -46,6 +47,7 @@ On the endpoint, that shows up as `wscript.exe` running a .js file from the user
 - Check the browser history for the download URL and look for other hosts that visited the same site
 - Escalate to L2 with the process tree, the file hash, and the URL
 
+## What I learned
 **About the topic:**
 - MITRE ATT&CK was new to me. I now understand it as a shared, globally used knowledge base of real attacker tactics and techniques, and that security teams use its IDs (like T1059 for command and scripting) to describe what they detect.
 - I already knew about attacks like SEO poisoning in general, but not the names of the threats and groups behind them. Connecting a technique to real threat names makes reports and alerts easier to understand.
